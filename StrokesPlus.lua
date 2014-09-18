@@ -76,8 +76,8 @@ end
 
 --local SourceFolder = "C:\\Users\\YI\\AppData\\Roaming\\StrokesPlus\\" --源文件路径
 --local BackupFolder = "D:\\BackupCenter\\StrokesPlus\\" --备份文件路径
-local SourceFolder = "F:/InstallPackage/StrokesPlus_x86/" --源文件路径
-local BackupFolder = "F:/InstallPackage/StrokesPlus_x86/bak/" --备份文件路径
+local SourceFolder = "./" --源文件路径
+local BackupFolder = "./bak/" --备份文件路径
 
 BackupConfig(SourceFolder.."StrokesPlus.xml", BackupFolder.."StrokesPlus.xml_"..os.date("%Y-%m"))
 BackupConfig(SourceFolder.."StrokesPlus.lua", BackupFolder.."StrokesPlus.lua_"..os.date("%Y-%m"))
